@@ -138,6 +138,12 @@ Suggested GitHub Actions steps:
 - `backend/` Node.js API
 - `android/`, `ios/`, `web/`, `windows/`, `linux/`, `macos/` platform targets
 
+## Considerations
+If you want to run locally, you’ll need to regenerate:
+
+- ` android/app/google-services.json`
+- `firebase_options.dart`
+  
 ## License
 
 This project is for academic and portfolio purposes. If you want to reuse or extend it, please contact the author.
