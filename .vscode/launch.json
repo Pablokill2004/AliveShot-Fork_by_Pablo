@@ -1,0 +1,37 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    
+    {
+      "name": "alive_shot",
+      "request": "launch",
+      "type": "dart",
+         "console": "debugConsole"
+    },
+    {
+      "name": "alive_shot (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+         "console": "debugConsole"
+    },
+    {
+      "name": "alive_shot (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+         "console": "debugConsole"
+    },
+    {
+      "name": "Flutter",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "console": "debugConsole" // Asegúrate de que esté configurado correctamente
+    }
+  ]
+}
